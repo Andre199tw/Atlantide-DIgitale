@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>AD | Contatti</title>
+  <link rel="icon" href="/content/immagini/logobianco.png" type="image/png">
+  <link href="/src/s1.css"rel="stylesheet" type="text/css" />
+  <script src="/src/script.js"></script>
+</head>
+
+<body>
+
+<div>
+    <button id="T-button"onclick="menu_appear()"><img src="/content/immagini/menus.png" style="height: 20px; width: 20px;"></button>
+    
+    <div id="menu-box">
+      <a class="header" id="cap0" href="/src/html/indice.html" style="color:white">Indice</a><br>
+      <a class="cap" id="cap1" href="/src/html/p1.html" style="color:white">❖ Introduzione</a><br>
+      <a class="appr1 appr" id="appr1" href="/src/approfondimenti/frcable.html" style="color:white">⊛ Il primo cavo</a><br>
+      <a class="cap" id="cap2" href="/src/html/p2.html" style="color:white">❖ Tipologie Cavi</a><br>
+      <a class="appr1 appr" id="appr2" href="/src/approfondimenti/fibra.html" style="color:white">⊛ Fibra Ottica</a><br>
+      <a class="cap" id="cap3" href="/src/html/p3.html" style="color:white">❖ Lunghezze dei Cavi</a><br>
+      <a class="appr appr1" id="appr3" href="/src/approfondimenti/conness-satellite.html" style="color:white">⊛ Come funziona? </a><br>
+      <a class="appr appr1" id="appr4" href="/src/approfondimenti/batimetria.html" style="color:white">⊛ Batimetria</a><br>
+      <a class="appr appr1" id="appr5" href="/src/approfondimenti/carotaggi.html" style="color:white">⊛ Carotaggi</a><br>
+      <a class="cap" id="cap4" href="/src/html/p4.html" style="color:white">❖ Posa</a><br>
+      <a class="cap" id="cap5" href="/src/html/p5.html" style="color:white">❖ Guasti</a><br>
+      <a class="cap" id="cap6" href="/src/html/p6.html" style="color:white">❖ Prevenzione guasti</a><br>
+      <a class="appr appr1" id="appr6" href="/src/approfondimenti/riparazioni.html" style="color:white">⊛ Riparazione</a><br>
+      <a class="cap" id="cap7" href="/src/html/p7.html" style="color:white">❖ Aspetti Geopolitici</a><br>
+      <a class="cap" id="cap8" href="/src/html/p8.html" style="color:white">❖ Internet Satellitare</a><br>
+      <a class="appr appr1" id="appr7" href="/src/approfondimenti/conness-satellite.html" style="color:white">⊛ Come funziona? </a><br>
+      <a class="cap" id="cap8" href="/src/html/p9.html" style="color:white">❖ Ricerca sui terremori</a><br>
+      <a class="header" id="mappa_cavi" href="/src/approfondimenti/conness-satellite.html" style="color:white">Mappa</a><br>
+
+      <a class="header" id="quiz" href="/quiz.html" style="color:white">Quiz</a><br>
+      <a class="header" id="contatti" href="/src/html/contatti.html" style="color:white">Contatti</a><br>
+
+    </div>
+    <div class="blur" id="blur_menu" onclick="clmenu()">
+
+    </div>   
+  </div>
+
+  <div class="overlay" id="overlay" onclick="">
+    <div class="blur" id="blur_tuto"></div>
+    
+    
+    <div class="overlay-content" id="overlay-content">
+      <div id="scelta"">
+        <h1 id="titolo">Tutorial Contatti</h2>
+        <p id="testo">In questa schermata potrai trovare i contatti degli sviluppatori di <br> 
+          Atlantide Digitale:<br>
+        clicca sul nome per scrivere un'email.</p>
+      </div>
+      
+      <button id="close" onclick="offtuto()">Chiudi</button>
+      
+    </div>
+  </div>
+
+  
+    <div class="logo_container">
+      <img src="/content/immagini/logoposa.PNG" class="logo">
+    </div>
+
+    <div class="bottoni">
+      <a onclick="esci()" class="bottone" id="esci">Esci</a>
+      <a href="/index.html" class="bottone" id="home">Home</a>
+    </div>
+
+  
+  <div class="overlay"id="overlay1">
+    <div class="blur" id="blur_ex">
+      <div class="finestra-esci" id="finestra-esci">
+        <div class="finestra-content">
+          <p>Si è sicuri di voler chiudere?</p>
+          <div class="controls">
+              <button class="tasto-chiudi" onclick="n()">Sì</button>
+              <button class="tasto-annulla" onclick="annexit()">Annulla</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="content2" class="content">
+    <div id="box2" class="box">
+        <h1>Contatti</h1>
+        <h3 style="text-align: left;padding-left: 2%;">Committente</h3>
+        <ul style="text-align: left;">
+            <li>Dott.ssa Rosa Lanzilotti: <a href="mailto:rosa.lanzilotti@uniba.it">rosa.lanzilotti@uniba.it</a></li>
+        </ul>
+        <h3 style="text-align: left;padding-left: 2%;">Reparto tecnico</h3>
+      <ul style="text-align: left;">
+        <li>Andrea Martilotti: <a href="mailto:a.martilotti2@studenti.uniba.it">a.martilotti2@studenti.uniba.it</a></li>
+        <li>Michele Ritella: <a href="mailto:m.ritella@studenti.uniba.it">m.ritella@studenti.uniba.it</a></li>
+        <li>Samuele Di Grassi: <a href="mailto:s.digrassi@studenti.uniba.it">s.digrassi@studenti.uniba.it</a></li>
+        <li>John Fredy Cucci Cofano: <a href="mailto:j.cuccicofano@studenti.uniba.it">j.cuccicofano@studenti.uniba.it</a></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+
+</html>

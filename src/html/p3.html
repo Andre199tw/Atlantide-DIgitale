@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>AD | Quanto sono lunghi?</title>
+  <link rel="icon" href="/content/immagini/logobianco.png" type="image/">
+  <link href="/src/s1.css" rel="stylesheet" type="text/css" />
+  <script src="/src/script.js"></script> 
+    <script src="/src/script2.js"></script>
+  <script src="/src/PNV.js"></script>
+  <script>
+    position_cookie(3);
+  </script>
+</head>
+
+<body>
+  <audio src="/content/audio/starter.mp3" id="tuto"></audio>
+  <audio src="/content/audio/indietro.mp3" id="indietro_audio"></audio>
+  <audio src="/content/audio/avanzamentoscheda.mp3" id="avanzamentoscheda"></audio>
+  <audio id="home_audio" src="/content/audio/home.mp3"></audio>
+  <audio id="inizioPNV" src="/content/audio/inizioPNV.mp3"></audio>  
+  <audio id="esci_audio" src="/content/audio/chiusura.mp3"></audio> 
+  <audio id="p3" src="/content/audio/lunghezzacavi.mp3"></audio>
+
+  <script>PNV_para("p3");</script>
+  <div>
+    <button id="T-button"onclick="menu_appear()"><img src="/content/immagini/menus.png" style="height: 20px; width: 20px;"></button>
+    
+    <div id="menu-box">
+
+      <a class="header" id="cap0" href="/src/html/indice.html" style="color:white">Indice</a><br>
+      <a class="cap" id="cap1" href="/src/html/p1.html" style="color:white">❖ Introduzione</a><br>
+      <a class="appr1 appr" id="appr1" href="/src/approfondimenti/frcable.html" style="color:white">⊛ Il primo cavo</a><br>
+      <a class="cap" id="cap2" href="/src/html/p2.html" style="color:white">❖ Tipologie Cavi</a><br>
+      <a class="appr1 appr" id="appr2" href="/src/approfondimenti/fibra.html" style="color:white">⊛ Fibra Ottica</a><br>
+      <a class="cap" id="cap3" href="/src/html/p3.html" style="color:white">❖ Lunghezze dei Cavi</a><br>
+      <a class="appr appr1" id="appr3" href="/src/approfondimenti/conness-satellite.html" style="color:white">⊛ Come funziona? </a><br>
+      <a class="appr appr1" id="appr4" href="/src/approfondimenti/batimetria.html" style="color:white">⊛ Batimetria</a><br>
+      <a class="appr appr1" id="appr5" href="/src/approfondimenti/carotaggi.html" style="color:white">⊛ Carotaggi</a><br>
+      <a class="cap" id="cap4" href="/src/html/p4.html" style="color:white">❖ Posa</a><br>
+      <a class="cap" id="cap5" href="/src/html/p5.html" style="color:white">❖ Guasti</a><br>
+      <a class="cap" id="cap6" href="/src/html/p6.html" style="color:white">❖ Prevenzione guasti</a><br>
+      <a class="appr appr1" id="appr6" href="/src/approfondimenti/riparazioni.html" style="color:white">⊛ Riparazione</a><br>
+      <a class="cap" id="cap7" href="/src/html/p7.html" style="color:white">❖ Aspetti Geopolitici</a><br>
+      <a class="cap" id="cap8" href="/src/html/p8.html" style="color:white">❖ Internet Satellitare</a><br>
+      <a class="appr appr1" id="appr7" href="/src/approfondimenti/conness-satellite.html" style="color:white">⊛ Come funziona? </a><br>
+      <a class="cap" id="cap8" href="/src/html/p9.html" style="color:white">❖ Ricerca sui terremori</a><br>
+      <a class="header" id="mappa_cavi" href="/src/approfondimenti/conness-satellite.html" style="color:white">Mappa</a><br>
+
+      <a class="header" id="quiz" href="/quiz.html" style="color:white">Quiz</a><br>
+      <a class="header" id="contatti" href="/src/html/contatti.html" style="color:white">Contatti</a><br>
+
+
+    </div>
+    <div class="blur" id="blur_menu" onclick="clmenu()">
+
+    </div>   
+  </div>
+
+  <!-- INIZIO TUTORIAL -->
+
+  <div class="overlay" id="overlay">
+    <div class="blur" id="blur_tuto"></div>
+  
+  <div class="overlay-content" id="overlay-content" style="overflow-y: hidden;">
+      
+        <video id="tutvideo" src="/content/video/tut-comp.mp4"  autoplay loop></video>
+      
+      <div id="scelta">
+        <p id="tut-text">Tutti i tasti utili per navigare nell'applicazione.</p>
+        <button class="bottone" id="close" onclick="offtuto()">Chiudi</button>
+      </div>
+  </div>
+</div>
+
+<!-- FINE TUTORIAL :) -->
+  
+  <div class="logo_container">
+    <img src="/content/immagini/logoposa.PNG" class="logo">
+  </div>
+
+  <div class="bottoni">
+    <a onclick="avanti('p4.html')" class="bottone" id="avanti">Avanti</a>
+    <a onclick="esci()" class="bottone" id="esci">Esci</a>
+    <a href="/index.html" class="bottone" id="home">Home</a>
+    <a href="p2.html" id="indietro" class="bottone">Indietro</a>
+    <a onclick="ontutorial()" id="tutorial" class="bottone">Tutorial</a>
+  </div>
+
+  <div class="content">
+    <div class="box">
+      <h1>Quanto sono lunghi? </h1>
+      <hr>
+      <p>
+        La lunghezza dei cavi sottomarini cambia in base al percorso e ai chilometri che intercorrono tra i punti da collegare.<br>
+        I cavi per la trasmissione della corrente elettrica sono formati da diversi spezzoni chiamati “pezzature”, giuntati tra loro 
+        ogni 25/50 km circa mentre i cavi per la trasmissione dati, in fibra ottica, presentano un ripetitore di segnale ogni 40/80 km utile 
+        all’ottimizzazione della trasmissione. <br>I cavi sono trasportati da gigantesche navi e risultano essere lunghi migliaia di km: ogni cavo è 
+        di lunghezza maggiore rispetto ai due luoghi da collegare in quanto è necessario tener conto dell’irregolarità del fondale che, 
+        inevitabilmente, rende il tragitto del cavo più lungo(Ad esempio il cavo CeltixConnect che collega inghilterra e irlanda è lungo 130 km). 
+        Proprio in vista della varietà di fondali, per decidere dove far passare i cavi è indispensabile studiare 
+        la <a id="approfondimento1" href="/src/approfondimenti/batimetria.html">batimetria</a> del 
+        fondale, il quale può presentare valli, rilievi, vulcani sottomarini, sorgenti idrotermali, rigetti di faglie e altro.
+        È inoltre rilevante la natura geologica del substrato: la presenza di sabbia o roccia incide sulla scelta della tipologia di cavo da posare 
+        e per tale ragione molto spesso si effettuano dei <a id="approfondimenti2" href="/src/approfondimenti/carotaggi.html">carotaggi</a>.
+        </p>
+    </div>
+    
+    <div class="media">
+      <img src="/content/gif/sezione_cavo.gif" 
+           style="width: 700px;" autoplay loop>
+    </div>
+  </div>
+  
+  <div class="overlay"id="overlay1">
+    <div class="blur" id="blur_ex">
+      <div class="finestra-esci" id="finestra-esci">
+        <div class="finestra-content">
+          <p>Si è sicuri di voler chiudere?</p>
+          <div class="controls">
+              <button class="tasto-chiudi" onclick="n()">Sì</button>
+              <button class="tasto-annulla" onclick="annexit()">Annulla</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COOKIES -->
+  <div class="box-cookies" id="cookies">
+    
+    <div class="testo-cookies">
+      <p>Gentile utente, desideriamo informarla circa le finalità e le modalità del trattamento dei suoi dati,che effettueremo ai 
+        sensi del Regolamento Europeo n. 679/2016 cd.GDPR, relativo alla protezione e alla libera circolazione dei dati delle 
+        persone fisiche.<br>Premendo il tasto "accetta", accetta quanto previsto dal suddetto GDPR, premendo il tasto "rifiuta" 
+        continuerà la navigazione con funzionalità limitate.</p>
+    </div>
+
+    <div class="box-bottoni-cookies">
+      <button class="cook-bott" href="https://www.garanteprivacy.it/faq/cookie"style="background-color: grey;" target="blank">Scopri di più</button>
+      <button class="cook-bott" onclick="rifiuta_cookie()">Rifiuta</button>
+      <button class="cook-bott" onclick="accetta_cookie()">Accetta</button>
+    </div>
+  </div>
+
+</body>
+
+</html>
