@@ -1,0 +1,477 @@
+[
+    {
+        "id": 1,
+        "difficolta":"Facile",
+        "argomento":"/src/html/p1.html",
+        "domanda": "Qual è la principale funzione di un cavo sottomarino per la fibra ottica?",
+        "risposta":{
+            "corretta":"Trasmettere dati a lunga distanza tra continenti",
+            "errata1":"Fornire energia elettrica alle isole",
+            "errata2":"Trasmettere segnali telefonici analogici",
+            "errata3":"Raccogliere dati da sensori oceanici"
+        }
+    },
+
+    {
+        "id": 2,
+        "difficolta":"Facile",
+        "argomento":"/src/html/p1.html",
+        "domanda": "Qual è la percentuale del traffico Internet globale che utilizza cavi sottomarini?",
+        "risposta":{
+            "corretta":"97%",
+            "errata1":"50%",
+            "errata2":"75%",
+            "errata3":"100%"
+        }
+    },
+
+    {
+        "id": 3,
+        "difficolta":"Facile",
+        "argomento":"/src/html/p2.html",
+        "domanda": "Qual è il materiale utilizzato nei cavi sottomarini per la trasmissione dati?",
+        "risposta":{
+            "corretta":"Fibra ottica",
+            "errata1":"Rame",
+            "errata2":"Kevlar",
+            "errata3":"Acciaio"
+        }
+    },
+
+    {
+        "id": 4,
+        "difficolta":"Facile",
+        "argomento":"/src/html/p8.html",
+        "domanda": "Qual è il nome del progetto di Elon Musk per Internet satellitare?",
+        "risposta":{
+            "corretta":"Starlink",
+            "errata1":"SpaceNet",
+            "errata2":"StarNet",
+            "errata3":"SpaceX Internet"
+        }
+    },
+
+    {
+        "id": 5,
+        "difficolta":"Facile",
+        "argomento":"/src/html/p4.html",
+        "domanda": "Cosa protegge i cavi sottomarini nelle aree sabbiose poco profonde?",
+        "risposta":{
+            "corretta":"Trincee scavate con aratri sottomarini",
+            "errata1":"Sonar",
+            "errata2":"Mattonelle di cemento",
+            "errata3":"Barche speciali"
+        }
+    },
+
+    {
+        "id": 6,
+        "difficolta":"Facile",
+        "argomento":"/src/html/p5.html",
+        "domanda": "Quale animale può attaccare i cavi sottomarini?",
+        "risposta":{
+            "corretta":"Squali",
+            "errata1":"Delfini",
+            "errata2":"Balene",
+            "errata3":"Polpi"
+        }
+    },
+
+    {
+        "id": 7,
+        "difficolta":"Media",
+        "argomento":"/src/html/p1.html",
+        "domanda": "Qual è la velocità massima di trasmissione dei moderni cavi sottomarini?",
+        "risposta":{
+            "corretta":"160 Tb/sec",
+            "errata1":"160 Gb/sec",
+            "errata2":"16 Tb/sec",
+            "errata3":"1.6 Tb/sec"
+        }
+    },
+    
+    {
+        "id": 8,
+        "difficolta":"Media",
+        "argomento":"/src/html/p3.html",
+        "domanda": "Come si chiama la tecnica utilizzata per analizzare la morfologia dei fondali marini?",
+        "risposta":{
+            "corretta":"Batimetria",
+            "errata1":"Ecografia marina",
+            "errata2":"Carotaggio",
+            "errata3":"Rilevamento sonar"
+        }
+    },
+    
+    {
+        "id": 9,
+        "difficolta":"Media",
+        "argomento":"/src/html/p5.html",
+        "domanda": "Quanti guasti ai cavi sottomarini si verificano ogni anno?",
+        "risposta":{
+            "corretta":"100",
+            "errata1":"500",
+            "errata2":"10",
+            "errata3":"1000"
+        }
+    },
+    
+    {
+        "id": 10,
+        "difficolta":"Media",
+        "argomento":"/src/html/p3.html",
+        "domanda": "Qual è la lunghezza del cavo CeltixConnect tra Inghilterra e Irlanda?",
+        "risposta":{
+            "corretta":"130 km",
+            "errata1":"100 km",
+            "errata2":"150 km",
+            "errata3":"200 km"
+        }
+    },
+    
+    {
+        "id": 11,
+        "difficolta":"Media",
+        "argomento":"/src/html/p9.html",
+        "domanda": "Quale tecnologia permette di rilevare le vibrazioni causate dai terremoti nei cavi in fibra ottica?",
+        "risposta":{
+            "corretta":"Ritardi di trasmissione della luce",
+            "errata1":"Onde sonore",
+            "errata2":"Rilevatori meccanici",
+            "errata3":"Sensori elettromagnetici"
+        }
+    },
+    
+    {
+        "id": 12,
+        "difficolta":"Difficile",
+        "argomento":"/src/approfondimenti/frcable.html",
+        "domanda": "Qual era il tempo di trasmissione di un messaggio sul primo cavo transoceanico?",
+        "risposta":{
+            "corretta":"17 ore",
+            "errata1":"24 ore",
+            "errata2":"1 ora",
+            "errata3":"8 ore"
+        }
+    },
+    
+    {
+        "id": 13,
+        "difficolta":"Difficile",
+        "argomento":"/src/html/p2.html",
+        "domanda": "Qual è lo spessore massimo dei cavi in fibra ottica con tutti i rivestimenti?",
+        "risposta":{
+            "corretta":"10 cm",
+            "errata1":"5 cm",
+            "errata2":"20 cm",
+            "errata3":"30 cm"
+        }
+    },
+    
+    {
+        "id": 14,
+        "difficolta":"Difficile",
+        "argomento":"/src/approfondimenti/frcable.html",
+        "domanda": "In che anno è stato posato il primo cavo sottomarino per Internet?",
+        "risposta":{
+            "corretta":"1988",
+            "errata1":"1998",
+            "errata2":"1958",
+            "errata3":"1968"
+        }
+    },
+    
+    {
+        "id": 15,
+        "difficolta":"Difficile",
+        "argomento":"/src/html/p7.html",
+        "domanda": "Qual è il costo massimo al chilometro di un cavo sottomarino per l'alta tensione?",
+        "risposta":{
+            "corretta":"700mila euro/km",
+            "errata1":"500mila euro/km",
+            "errata2":"100mila euro/km",
+            "errata3":"90mila euro/km"
+        }
+    },
+    
+    {
+        "id": 16,
+        "difficolta":"Difficile",
+        "argomento":"/src/html/p8.html",
+        "domanda": "Qual è il principale vantaggio dei cavi in fibra ottica rispetto ai satelliti?",
+        "risposta":{
+            "corretta":"Minori costi di trasmissione",
+            "errata1":"Copertura globale",
+            "errata2":"Maggiore resistenza agli urti",
+            "errata3":"Facilità di riparazione"
+        }
+    },
+    
+    {
+        "id": 17,
+        "difficolta":"Difficile",
+        "argomento":"/src/html/p7.html",
+        "domanda": "Quali paesi sono attualmente i principali protagonisti nella produzione di cavi sottomarini?",
+        "risposta":{
+            "corretta":"USA e Cina",
+            "errata1":"Cina e India",
+            "errata2":"Francia e Germania",
+            "errata3":"USA e Russia"
+        }
+    },
+    
+    {
+        "id": 18,
+        "difficolta":"Difficile",
+        "argomento":"/src/html/",
+        "domanda": "Quale percentuale di traffico dati mondiale è trasportato dai satelliti?",
+        "risposta":{
+            "corretta":"1%",
+            "errata1":"5%",
+            "errata2":"10%",
+            "errata3":"15%"
+        }
+    },
+    {
+        "id": 19,
+        "difficolta":"Difficile",
+        "argomento":"/src/html/carotaggi.html",
+        "domanda": "Che cos’è il carotaggio?",
+        "risposta":{
+            "corretta":"Il prelievo di cilindri di roccia per analisi meccaniche",
+            "errata1":"Una tecnica per rilevare guasti nei cavi",
+            "errata2":"Un processo per riparare i cavi in superficie",
+            "errata3":"Delle carote di un orto"
+        }
+    },
+    {
+        "id": 20,
+        "difficolta": "difficile",
+        "argomento": "",
+        "domanda": "Qual è lo scopo dei test di invecchiamento sui cavi sottomarini?",
+        "risposta": {
+            "corretta": "Simulare le condizioni di pressione e temperatura sul fondale",
+            "errata1": "Determinare il tempo di utilizzo massimo",
+            "errata2": "Migliorare la velocità di trasmissione dati",
+            "errata3": "Misurare la resistenza ai guasti meccanici"
+        }
+    },
+    {
+        "id": 21,
+        "difficolta": "difficile",
+        "argomento": "guasti ai cavi",
+        "domanda": "Perché gli squali attaccano i cavi sottomarini?",
+        "risposta": {
+            "corretta": "Per percezione delle correnti elettriche (elettroricezione)",
+            "errata1": "Per affilarsi i denti",
+            "errata2": "Per difendere il territorio",
+            "errata3": "Per sbaglio, scambiandoli per prede"
+        }
+    },
+    {
+        "id": 22,
+        "difficolta": "difficile",
+        "argomento": "eventi naturali",
+        "domanda": "Quale evento naturale può causare guasti ai cavi sottomarini?",
+        "risposta": {
+            "corretta": "Tutte le precedenti",
+            "errata1": "Tsunami",
+            "errata2": "Terremoti",
+            "errata3": "Eruzioni vulcaniche"
+        }
+    },
+    {
+        "id": 23,
+        "difficolta": "difficile",
+        "argomento": "posa dei cavi",
+        "domanda": "Qual è la profondità massima a cui possono essere collocati i cavi sottomarini?",
+        "risposta": {
+            "corretta": "8000 metri",
+            "errata1": "5000 metri",
+            "errata2": "7000 metri",
+            "errata3": "10.000 metri"
+        }
+    },
+        {
+            "id": 24,
+            "difficolta": "facile",
+            "argomento": "storia dei cavi",
+            "domanda": "In quale anno fu posato il primo cavo transoceanico?",
+            "risposta": {
+                "corretta": "1857",
+                "errata1": "1865",
+                "errata2": "1900",
+                "errata3": "1840"
+            }
+        },
+        {
+            "id": 25,
+            "difficolta": "facile",
+            "argomento": "trasmissione dati",
+            "domanda": "Qual è il principio fisico che permette il funzionamento della fibra ottica?",
+            "risposta": {
+                "corretta": "Riflessione interna totale",
+                "errata1": "Diffrazione della luce",
+                "errata2": "Rifrazione multipla",
+                "errata3": "Interferenza luminosa"
+            }
+        },
+        {
+            "id": 26,
+            "difficolta": "facile",
+            "argomento": "energia",
+            "domanda": "Qual è il materiale principale utilizzato nei cavi sottomarini per trasportare energia?",
+            "risposta": {
+                "corretta": "Rame",
+                "errata1": "Acciaio",
+                "errata2": "Alluminio",
+                "errata3": "Fibra ottica"
+            }
+        },
+        {
+            "id": 27,
+            "difficolta": "media",
+            "argomento": "posa dei cavi",
+            "domanda": "Cosa viene studiato con il carotaggio prima di posare un cavo sottomarino?",
+            "risposta": {
+                "corretta": "La natura geologica del substrato",
+                "errata1": "La profondità del fondale",
+                "errata2": "La velocità di trasmissione dati",
+                "errata3": "La posizione dei vulcani sottomarini"
+            }
+        },
+        {
+            "id": 28,
+            "difficolta": "media",
+            "argomento": "guasti ai cavi",
+            "domanda": "Qual è la principale causa antropica di guasti ai cavi sottomarini?",
+            "risposta": {
+                "corretta": "Pesca e ancoraggio delle navi",
+                "errata1": "Navigazione di sottomarini",
+                "errata2": "Attacchi di squali",
+                "errata3": "Scavi oceanici"
+            }
+        },
+        {
+            "id": 29,
+            "difficolta": "media",
+            "argomento": "riparazione",
+            "domanda": "Cosa viene utilizzato per sollevare e tagliare un cavo danneggiato a più di 2 km di profondità?",
+            "risposta": {
+                "corretta": "Un rampino speciale",
+                "errata1": "Un robot subacqueo",
+                "errata2": "Un sonar avanzato",
+                "errata3": "Un arpione meccanico"
+            }
+        },
+        {
+            "id": 30,
+            "difficolta": "media",
+            "argomento": "batimetria",
+            "domanda": "Per cosa viene utilizzato un sonar nello studio dei fondali marini?",
+            "risposta": {
+                "corretta": "Rilevare la morfologia del fondale",
+                "errata1": "Calcolare la profondità dell'acqua",
+                "errata2": "Individuare vulcani sottomarini",
+                "errata3": "Trovare la posizione dei cavi"
+            }
+        },
+        {
+            "id": 31,
+            "difficolta": "difficile",
+            "argomento": "geopolitica",
+            "domanda": "Quale paese possiede attualmente più cavi sottomarini?",
+            "risposta": {
+                "corretta": "Stati Uniti",
+                "errata1": "Cina",
+                "errata2": "Giappone",
+                "errata3": "Germania"
+            }
+        },
+        {
+            "id": 32,
+            "difficolta": "difficile",
+            "argomento": "storia dei cavi",
+            "domanda": "Quanto durò il primo cavo transoceanico prima di rompersi?",
+            "risposta": {
+                "corretta": "Circa un mese",
+                "errata1": "Una settimana",
+                "errata2": "Sei mesi",
+                "errata3": "Un anno"
+            }
+        },
+        {
+            "id": 33,
+            "difficolta": "difficile",
+            "argomento": "costi",
+            "domanda": "Qual è il costo per chilometro di un cavo ad alta tensione armato?",
+            "risposta": {
+                "corretta": "Oltre 700mila euro/km",
+                "errata1": "500mila euro/km",
+                "errata2": "100mila euro/km",
+                "errata3": "90mila euro/km"
+            }
+        },
+        {
+            "id": 34,
+            "difficolta": "difficile",
+            "argomento": "guasti e soluzioni",
+            "domanda": "Quale metodo permette di individuare il punto preciso di un guasto in un cavo ottico?",
+            "risposta": {
+                "corretta": "Calcolo del tempo di ritorno degli impulsi luminosi",
+                "errata1": "Analisi della tensione elettrica",
+                "errata2": "Utilizzo di sonar sottomarini",
+                "errata3": "Lettura della temperatura del cavo"
+            }
+        },
+        {
+            "id": 35,
+            "difficolta": "facile",
+            "argomento": "posa dei cavi",
+            "domanda": "Cosa protegge i cavi sottomarini nei fondali rocciosi?",
+            "risposta": {
+                "corretta": "Mattonelle di cemento",
+                "errata1": "Trincee sabbiose",
+                "errata2": "Barre di acciaio",
+                "errata3": "Kevlar rinforzato"
+            }
+        },
+        {
+            "id": 36,
+            "difficolta": "media",
+            "argomento": "utilizzo",
+            "domanda": "Qual è la percentuale di trasmissione dati globale che avviene tramite satelliti?",
+            "risposta": {
+                "corretta": "Meno dell'1%",
+                "errata1": "5%",
+                "errata2": "10%",
+                "errata3": "15%"
+            }
+        },
+        {
+            "id": 37,
+            "difficolta": "difficile",
+            "argomento": "guasti e soluzioni",
+            "domanda": "Cosa si usa per riparare un cavo sottomarino rotto in profondità?",
+            "risposta": {
+                "corretta": "Un laboratorio speciale a bordo",
+                "errata1": "Un robot subacqueo",
+                "errata2": "Un sensore ottico",
+                "errata3": "Un sonar avanzato"
+            }
+        },
+        {
+            "id": 38,
+            "difficolta": "media",
+            "argomento": "guasti e soluzioni",
+            "domanda": "Qual è l'utilizzo alternativo di cavi sottomarini obsoleti?",
+            "risposta": {
+                "corretta": "Sensori geologici per terremoti",
+                "errata1": "Cavi per elettricità terrestre",
+                "errata2": "Materiali per riparazioni navali",
+                "errata3": "Reti per uso domestico"
+            }
+        }
+    
+
+]
