@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>AD | Batimetria</title>
+  <link rel="icon" href="" type="image/">
+  <link href="/src/s1.css" rel="stylesheet" type="text/css" />
+  <script src="/src/script.js"></script>
+  <script src="/src/script2.js"></script>
+  <script src="/src/PNV.js"></script>
+
+  <script>
+    appr_position(1);
+  </script> 
+
+</head>
+
+<body>
+  <audio src="/content/audio/starter.mp3" id="tuto"></audio>
+  <audio src="/content/audio/indietro.mp3" id="indietro_audio"></audio>
+  <audio src="/content/audio/avanzamentoscheda.mp3" id="avanzamentoscheda"></audio>
+  <audio id="home_audio" src="/content/audio/home.mp3"></audio>
+  <audio id="inizioPNV" src="/content/audio/inizioPNV.mp3"></audio>  
+  <audio id="esci_audio" src="/content/audio/chiusura.mp3"></audio> 
+  
+
+  <div>
+    <button id="T-button"onclick="menu_appear()"><img src="/content/immagini//menus.png" style="height: 20px; width: 20px;"></button>
+    
+    <div id="menu-box" >
+      
+      <a class="header" id="cap0" href="/src/html/indice.html" style="color:white">Indice</a><br>
+      <a class="cap" id="cap1" href="/src/html/p1.html" style="color:white">❖ Introduzione</a><br>
+      <a class="appr1 appr" id="appr1" href="/src/approfondimenti/frcable.html" style="color:white">⊛ Il primo cavo</a><br>
+      <a class="cap" id="cap2" href="/src/html/p2.html" style="color:white">❖ Tipologie Cavi</a><br>
+      <a class="appr1 appr" id="appr2" href="/src/approfondimenti/fibra.html" style="color:white">⊛ Fibra Ottica</a><br>
+      <a class="cap" id="cap3" href="/src/html/p3.html" style="color:white">❖ Lunghezze dei Cavi</a><br>
+      <a class="appr appr1" id="appr3" href="/src/approfondimenti/conness-satellite.html" style="color:white">⊛ Come funziona? </a><br>
+      <a class="appr appr1" id="appr4" href="/src/approfondimenti/batimetria.html" style="color:white">⊛ Batimetria</a><br>
+      <a class="appr appr1" id="appr5" href="/src/approfondimenti/carotaggi.html" style="color:white">⊛ Carotaggi</a><br>
+      <a class="cap" id="cap4" href="/src/html/p4.html" style="color:white">❖ Posa</a><br>
+      <a class="cap" id="cap5" href="/src/html/p5.html" style="color:white">❖ Guasti</a><br>
+      <a class="cap" id="cap6" href="/src/html/p6.html" style="color:white">❖ Prevenzione guasti</a><br>
+      <a class="appr appr1" id="appr6" href="/src/approfondimenti/riparazioni.html" style="color:white">⊛ Riparazione</a><br>
+      <a class="cap" id="cap7" href="/src/html/p7.html" style="color:white">❖ Aspetti Geopolitici</a><br>
+      <a class="cap" id="cap8" href="/src/html/p8.html" style="color:white">❖ Internet Satellitare</a><br>
+      <a class="appr appr1" id="appr7" href="/src/approfondimenti/conness-satellite.html" style="color:white">⊛ Come funziona? </a><br>
+      <a class="cap" id="cap8" href="/src/html/p9.html" style="color:white">❖ Ricerca sui terremori</a><br>
+      <a class="header" id="mappa_cavi" href="/src/approfondimenti/conness-satellite.html" style="color:white">Mappa</a><br>
+
+      <a class="header" id="quiz" href="/quiz.html" style="color:white">Quiz</a><br>
+      <a class="header" id="contatti" href="/src/html/contatti.html" style="color:white">Contatti</a><br>
+
+
+    </div>
+    <div class="blur" id="blur_menu" onclick="clmenu()">
+
+    </div>   
+  </div>
+
+  <div class="logo_container">
+    <img src="/content/immagini//logoposa.PNG" class="logo">
+  </div>
+
+  <div class="bottoni" >
+
+    <a onclick="esci()" class="bottone" id="esci">Esci</a>
+    <a href="/index.html" class="bottone" id="home">Home</a>
+    <a href="/src/html/p3.html" id="indietro" class="bottone">Indietro</a>
+    <a onclick="move()" id="tutorial" class="bottone">Tutorial</a>
+  </div>
+
+  <div class="content">
+    <div class="box">
+      <h1>Cos'è la batimetria?</h1><hr>
+      <hr>
+      <p>
+        La batimetria è la scienza che studia la morfologia marina e lacustre e che si occupa della loro rappresentazione grafica. La mappa che
+        ne deriva, la mappa batimetrica, o grafico, mostra normalmente il rilievo di fondo o terreno come istogrammi e può anche fornire ulteriori 
+        informazioni sulla navigazione in superficie.
+      </p>
+      <h1>Come funziona?</h1>
+      <hr>
+      <p>
+        I dati utilizzati oggi per la preparazione di mappe batimetriche normalmente vengono raccolti da navi attrezzate con sonar, GPS ad alta 
+        precisione e sistemi di elaborazione dati. L'operazione avviene con l'invio di singoli impulsi sonori verso il fondale, in cui il ritorno del 
+        segnale indica la profondità in un punto. I dati raccolti dai sonar vengono elaborati da un sistema informatico per creare modelli 3D del 
+        fondale, trasformati poi in mappe batimetriche con isogrammi, colori e dettagli aggiuntivi e validati attraverso la comparazione con i dati 
+        precedenti per garantirne la precisione.
+      </p>
+
+    </div>
+    <div class="media">
+      <img src="/content/immagini/batimetria2.gif" 
+            style="width: 60%;">
+    </div>
+  </div>
+  
+
+  </div>
+
+  <div class="overlay"id="overlay1">
+    <div class="finestra-esci" id="finestra-esci">
+        
+        <div class="finestra-content">
+            <p>Si è sicuri di voler chiudere?</p>
+            <div class="controls">
+                <button class="tasto-chiudi" onclick="n()">Sì</button>
+                <button class="tasto-annulla" onclick="annexit()">Annulla</button>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  
+
+</body>
+
+</html>
